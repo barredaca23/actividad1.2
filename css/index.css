@@ -29,6 +29,12 @@ nav{
     padding-top: 10px;
     text-decoration: none;
 }
+.nav_a_r{
+    margin-left: 190px;
+    width: 55px;
+
+}
+
 #barraLateralIzquierda{
     background-color: white;
     float: left;
