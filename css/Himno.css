@@ -1,0 +1,14 @@
+.text{
+    text-align: center;
+}
+
+.letras{
+    text-decoration: none;
+    color: crimson;
+    font-size: 20px;
+}
+
+.primera-linea{
+    text-decoration: none;
+    color: darkgreen;
+}

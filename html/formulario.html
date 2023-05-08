@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en"  dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Registro</div>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Nombres</span>
+                    <input type="text" placeholder="Introduce tu nombre" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Apellidos</span>
+                    <input type="text" placeholder="Introduce tus apellidos" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Fecha de nacimiento</span>
+                    <input type="date" placeholder="Ingresa la fecha" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="email" placeholder="Inserte su Email" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Contraseña</span>
+                    <input type="password" placeholder="inserte su contraseña" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Telefono</span>
+                    <input type="tel" placeholder="inserte su Telefono" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Pagina favorita</span>
+                    <input type="url" placeholder="Inserte el link de la pagina" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Horas de uso</span>
+                    <input type="number " placeholder="Horas que dedica en el internet" required>
+                </div>
+                <div class="uso-details">
+                    <input type="radio" name="uso" id="dot-1">
+                    <input type="radio" name="uso" id="dot-2">
+                    <input type="radio" name="uso" id="dot-3">
+                    <span class="uso-title">Uso diario</span>
+                    <div class="category">
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">menos de 4 Horas</span>
+                        </label>
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender">entre 4 y 8 horas</span>
+                        </label>
+                        <label for="dot-3">
+                            <span class="dot three"></span>
+                            <span class="gender">mas de 8 horas</span>
+                        </label>
+                    </div>
+                </div> 
+            </div>
+            <div class="button">
+                <input type="submit" value="registrar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+*{
+    margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header{
+    background-color: #00FFCA;
+    height: 60px;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    /* justify-content: center; opcional */
+    align-items: center;
+}
+div{
+    height: 400px;
+    width: 100%;
+    display:inline-flex
+    
+}
+nav{
+    background-color: #2C3333;
+    height: 30px;
+    text-align: center;
+}
+#nav_a{
+    color: aliceblue;
+    margin-right: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+#barraLateralIzquierda{
+    background-color: white;
+    float: left;
+    width: 15%;
+    height: 37vmax;
+    border: 2px solid black;
+    align-items: center;
+    padding: 10px 10px;
+}
+section{
+    height: 39vmax;
+    width: 68%;
+    display: flex;
+}
+#barraLateralDerecha{
+    background-color: white;
+    float: left;
+    width: 15%;
+    height: 37vmax;
+    border: 2px solid black;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+footer{
+    height:38px;
+    line-height:20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    background-color: #cc5a26;
+    text-align: center;
+}
+body {
+  position: relative;
+  min-height: 100vh;
+}
+img{
+    height: 45px;
+    width: 100px;
+    display: inline;
+    margin: 2px 2px;
+    float: left;
+    margin-right: 360px;
+}
+h1{
+    display: inline;
+    float: right;
+}
+p{
+    color: aliceblue;
+}
+iframe{
+    width: 100%;
+}
+#logos{
+    width: 40px;
+    height: 40px;
+    margin-block-end: 8px;
+}

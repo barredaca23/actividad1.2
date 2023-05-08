@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Actividad 1</title>
+    <link rel="stylesheet" href="C:\Users\daniel\Desktop\actividad1web\actividad-1/css/index.css" />
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        const navLinks = document.querySelectorAll("#nav_a, #redes,#corta");
+        const iframe = document.querySelector("#mi-iframe");
+        navLinks.forEach(link => {
+          link.removeAttribute("target");
+          link.addEventListener("click", e => {
+            e.preventDefault();
+            iframe.src = e.target.href;
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+      <img src="C:\Users\daniel\Desktop\actividad1web\actividad-1/img/logo_UIS.png" alt="Logo UIS">
+      <h1>UNIVERSIDAD INDUSTRIAL DE SANTADER</h1>
+    </header>
+    <nav>
+      <a id="nav_a" href="https://meiweb9.uis.edu.co/meiweb/portal/">Meiweb</a>
+      <a id="nav_a" href="https://unal.edu.co/">UNAL</a>
+      <a id="nav_a" href="https://usantotomas.edu.co/inicio">Universidad Santo Tomas</a> 
+      <a id="nav_a" href="http://cormoran.uis.edu.co/eisi/">Cormoran</a> 
+    </nav>
+    <div>
+      <aside id="barraLateralIzquierda">
+        <a id="corta" href="C:\Users\daniel\Desktop\actividad1web\actividad-1\html\Himno.html">Himno UIS con estilo</a><br>
+        <a id="corta" href="C:\Users\daniel\Desktop\actividad1web\actividad-1\html\mosaicaimagen.html">Mosaico fotos</a><br>
+        <a id="corta" href="">Mosaico video</a><br>
+        <a id="corta" href="">Formulario encuesta</a>
+      </aside>
+
+      <section>
+        <iframe id="mi-iframe" src="" frameborder="0"></iframe>
+      </section>
+
+      <aside id="barraLateralDerecha">
+        <a id="redes" href="https://es.wikipedia.org/wiki/Wikipedia:Portada"><img id="logos" src="C:\Users\daniel\Desktop\actividad1web\actividad-1\img\logo_wiki.jpeg" alt=""></a>
+        <a id="redes" href="https://twitter.com/?lang=es"><img id="logos" src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" alt=""></a>
+        <a id="redes" href="https://www.youtube.com/watch?v=NIFJVCDDG4s"><img id="logos" src="C:\Users\daniel\Desktop\actividad1web\actividad-1/img/logo_youtube.png" alt="/"></a>
+        <a id="redes" href="https://www.instagram.com/"><img id="logos" src="C:\Users\daniel\Desktop\actividad1web\actividad-1/img/logo_instagram.jpeg" alt=""></a>
+        <a id="redes" href="https://www.linkedin.com/"><img id="logos"src="C:\Users\daniel\Desktop\actividad1web\actividad-1/img/logo_linkedin.png" alt=""></a>
+      </aside>
+    </div>
+    
+    <footer>
+        <p>Autores: Jaider Gonzalez, Daniel Barrera, Julian Cañon, Edgar Ariza</p>
+    </footer>
+  </body>
+</html>
