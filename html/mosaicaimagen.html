@@ -5,42 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/imagenmosaic.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/mosaicoimagenes20.css">
+    <style>
+        img{
+            height:100px;
+            text-align: center;
+        }
+
+        h2{
+            text-align: center;
+        }
+
+        .container{
+            background-color: white;
+            height: 50vh;
+            margin: 5%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+    
+        }     
+    </style>
 </head>
 <body>
-    <div class="moasico">
-        <h3 class="titulo-mosaico">Fotos</h3>
-        <div class="imagenes">
-            <div class="titulos">familiar</div>
-            <div class="titulos">paisajes</div>
-            <div class="titulos">animales</div>
-            <div>
-                <p>familia</p>
-                <img src="../img/familia1.jpg" alt="">
-            </div>
-            <div>
-                <p>playa</p>
-                <img src="../img/playa.jpg" alt="">
-            </div>
-            <div>
-                <p>conejo</p>
-                <img src="../img/conejo.jpg" alt="">
-            </div>
-            <div>
-                <p>familia</p>
-                <img src="../img/familia.jpg" alt="">
-            </div>
-
-            <div>
-                <p>paisaje</p>
-                <img src="../img/paisaje.jpg" alt="">
-            </div>
-
-            <div>
-                <p>conejo</p>
-                <img src="../img/conejo.jpg" alt="">
-            </div>
+    <div class="container">
+        <h2>Fotos</h2>                                                                                    
+        <div class="table">          
+        <table class="table table-bordered">
+              <thead>
+                  <th colspan="1">Familiar</th>
+                  <th colspan="1">Paisajes</th>
+                  <th colspan="1">animales</th>
+              </thead>
+              <tbody>
+                    <tr>
+                        <th> <p>mujer bonita </p> <img src="../img/familia1.jpeg" alt="">
+                        </th>
+                        <th> <p>playa </p> <img src="../img/playa.jpg" alt=""> </th>
+                        <th> <p>conejo </p> <img src="../img/conejo.jpg" alt=""> </th>
+                    </tr>
+              
+                    <tr>
+                        <th> <p>mujer bonita </p> <img src="../img/familia2.jpeg" alt=""></th>
+                        <th> <p>paisaje </p> <img src="../img/paisaje.jpg" alt=""></th>
+                        <th> <p>conejo </p> <img src="../img/conejo.jpg" alt=""></th>
+                    </tr>
+                </tbody>
+            </table>
+        </table>
         </div>
-    </div>
+      </div>
+      
 </body>
 </html>
